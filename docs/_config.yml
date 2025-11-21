@@ -3,8 +3,6 @@ title: HiThink-Nexus-Humanoid's homepage
 description: Bookmark this to keep an eye on my project updates!
 lang: en
 
-remote_theme: rundocs/jekyll-rtd-theme
-
 readme_index:
   with_frontmatter: true
 
