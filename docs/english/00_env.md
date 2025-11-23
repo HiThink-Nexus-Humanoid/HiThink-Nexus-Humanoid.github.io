@@ -20,15 +20,17 @@ bash Miniforge3-$(uname)-$(uname -m).sh
 ## 2. conda or mamba environment setup
 
 ### check gpu driver support
-```
-pip install uv
-uv pip install torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu128
-```
+
 
 ```
 conda create -n env_mimic python=3.10 
 # or mamba create -n env_mimic python=3.10
 conda activate env_mimic 
+```
+
+```
+pip install uv
+uv pip install torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu128
 ```
 
 ---
