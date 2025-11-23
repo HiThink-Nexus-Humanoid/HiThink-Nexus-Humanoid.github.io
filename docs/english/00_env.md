@@ -56,7 +56,7 @@ isaacsim isaacsim.exp.full.kit
 ```
 git clone https://github.com/isaac-sim/IsaacLab.git
 cd IsaacLab
-git checkout -b 90b79bb2d44feb8d833f260f2bf37da3487180ba
+git checkout 90b79bb2d44feb8d833f260f2bf37da3487180ba
 ./isaaclab.sh -i
 ```
 
